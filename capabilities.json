@@ -1,0 +1,102 @@
+{
+ "db": {
+  "rules": [
+   {
+    "path": "facilitators",
+    "read": "admin",
+    "write": "self"
+   },
+   {
+    "path": "facilitators/{self}",
+    "read": "view",
+    "write": "interact"
+   },
+   {
+    "path": "consultants",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "consultants/{self}",
+    "read": "view",
+    "write": "interact"
+   },
+   {
+    "path": "capprove",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "cbook",
+    "read": "interact",
+    "write": "interact"
+   },
+   {
+    "path": "cms",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "plans",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "subs",
+    "read": "admin",
+    "write": "admin"
+   },
+   {
+    "path": "subs/{self}",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "subreq",
+    "read": "admin",
+    "write": "admin"
+   },
+   {
+    "path": "subreq/{self}",
+    "read": "view",
+    "write": "interact"
+   },
+   {
+    "path": "coupons",
+    "read": "admin",
+    "write": "admin"
+   },
+   {
+    "path": "blocked",
+    "read": "admin",
+    "write": "admin"
+   },
+   {
+    "path": "blocked/{self}",
+    "read": "view",
+    "write": "admin"
+   },
+   {
+    "path": "staff",
+    "read": "view",
+    "write": "owner"
+   },
+   {
+    "path": "audit",
+    "read": "admin",
+    "write": "admin"
+   },
+   {
+    "path": "cnotes",
+    "read": "admin",
+    "write": "admin"
+   }
+  ]
+ },
+ "user": {},
+ "downloads": true,
+ "room": {},
+ "sample": {
+  "images": true
+ }
+}

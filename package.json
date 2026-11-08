@@ -1,0 +1,26 @@
+{
+  "name": "brand-map",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "براند ماب — منصة لعبة بناء استراتيجية العلامة (React)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.128.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "acorn": "8.14.0",
+    "acorn-walk": "8.3.4",
+    "vite": "5.4.11",
+    "vite-plugin-singlefile": "2.0.3"
+  }
+}
